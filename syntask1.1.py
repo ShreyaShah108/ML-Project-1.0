@@ -16,9 +16,9 @@ for i in range(len(characters)):
 print("characters: " + str(characters))
 
 print('\nstep3:\n')
-def lamda(n):
-    return len(n)
-temp = list(map(lamda,characters))
+# def lamda(n):
+#     return len(n)
+temp = list(map(lambda n: len(n),characters))
 print("temp: " + str(temp))
 
 print('\nstep4:\n')
